@@ -23,8 +23,8 @@ Validation,Python grounding_chunks,We use direct metadata inspection to guarante
 
 ## ✨ Key Features
 
-* ** Forced Grounding:** The agent is programmatically forced to use the `Google Search` tool. Responses without search metadata are automatically rejected.
-* ** LinkedIn-Optimized:** Generates content specifically formatted for the LinkedIn feed (Hooks, Line Spacing, Hashtags).
-* ** Automated Bibliography:** The Python script parses `grounding_chunks` from the API response to append valid source URLs at the bottom of the post.
-* **Retry Logic:** If the model acts "lazy" (answers from memory), the script catches it and triggers a retry with stricter prompts.
+*  Forced Grounding: The agent is programmatically forced to use the `Google Search` tool. Responses without search metadata are automatically rejected.
+*  LinkedIn-Optimized: Generates content specifically formatted for the LinkedIn feed (Hooks, Line Spacing, Hashtags).
+*  Automated Bibliography: The Python script parses `grounding_chunks` from the API response to append valid source URLs at the bottom of the post.
+* Retry Logic: If the model acts "lazy" (answers from memory), the script catches it and triggers a retry with stricter prompts.
 
